@@ -1,0 +1,64 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+}
+
+.categories > * {
+  font-size: 16px;
+  padding: 26px 20px;
+}
+
+.help, .logo, .accountCartWrapper {
+  flex: 1;
+  align-self: center;
+  padding: 0 50px;
+  font-weight: 500;
+}
+
+.logo {
+  text-align: center;
+  font-size: 2.5rem;
+  letter-spacing: -6px;
+}
+
+.accountCartWrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.accountBtn,
+.cartBtn,
+.helpBtn {
+  border: none;
+  background-color: white;
+  margin: 20px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.accountBtn:hover,
+.cartBtn:hover,
+.helpBtn:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 767px) {
+  .categories {
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+  }
+}

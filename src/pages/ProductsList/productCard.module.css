@@ -1,0 +1,19 @@
+.img {
+  width: 200px;
+  height: auto;
+}
+
+.container {
+  border: 1px solid black;
+}
+.imageWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.infoWrapper {
+  padding-top: 20px;
+}

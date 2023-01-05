@@ -1,0 +1,96 @@
+.container {
+  display: flex;
+}
+
+.itemContainer {
+  margin: 70px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.img {
+  width: 100px;
+}
+
+.itemsWrapper {
+  margin: 70px 120px;
+}
+
+.deletePrice {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.deleteBtn {
+  align-self: flex-end;
+}
+
+.deleteBtn:hover {
+  cursor: pointer;
+}
+
+.infoWrapper {
+  width: 550px;
+}
+
+.info {
+  margin: 30px;
+}
+
+p {
+  letter-spacing: 0.5px;
+}
+
+.price {
+  align-self: flex-end;
+}
+
+.summaryContainer {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(243, 243, 245);
+  flex-grow: 1;
+  height: 100vh;
+}
+
+.summaryWrapper {
+  width: 600px;
+  position: fixed;
+  padding: 100px 70px;
+}
+
+.summaryContent {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.summaryTitle {
+  font-size: 13px;
+  letter-spacing: 0.7px;
+}
+
+.summaryPrice {
+  font-size: 16px;
+}
+
+.emptyInfo {
+  text-align: center;
+  margin-top: 100px;
+}
